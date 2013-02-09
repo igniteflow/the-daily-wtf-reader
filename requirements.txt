@@ -1,0 +1,4 @@
+Scrapy==0.16.4
+peewee==2.0.7
+Flask==0.9
+flask-peewee==0.6.3
