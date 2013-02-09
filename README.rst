@@ -1,3 +1,5 @@
+*** Note this is a work in progress, the result of a few hours hacking.  There is still much to do, but basic scrape, store and the RESTful HTTP service is functional ***
+
 THE DAILY WTF (UNOFFICIAL) READER
 =================================
 
