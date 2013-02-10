@@ -2,12 +2,12 @@ THE DAILY WTF (UNOFFICIAL) READER
 =================================
 
 
-A simple reader application for thedailywtf.com.  Consists of:
+A simple reader application for thedailywtf.com.  Consists of::
 
 
-1. Scraper (scrapy)
-2. Restful API (flask-peewee)
-3. Client apps (to come)
+	|-scraper:	scaper Scraper (scrapy)
+	|-api:		Restful API (flask-peewee)
+	|-thedailywtf-reader:	Android client app (Gson, android-async-http)
 
 
 Setup
@@ -48,3 +48,5 @@ Start the http server and test::
 In another terminal::
 
 	curl http://127.0.0.1:5000/api/article/
+
+Alternatively run the Android application in the SDK emulator and watch LogCat when clicking the button.
