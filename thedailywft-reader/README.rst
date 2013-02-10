@@ -1,0 +1,1 @@
+Android client app to consume the RESTful services
