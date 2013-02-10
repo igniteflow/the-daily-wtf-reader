@@ -18,5 +18,5 @@ class Article(Model):
     time = CharField()
 
     class Meta:
-        database = db # this model uses the people database
+        database = db
 

@@ -6,7 +6,7 @@ from dailywtfscraper import items
 from api import models    
 
 
-class DmozSpider(BaseSpider):
+class DailyWTFSpider(BaseSpider):
     name = "thedailywtf"
     allowed_domains = ["thedailywtf.com"]
     start_urls = [
