@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 
 	public void getAllArticles(View view) {
 		/**
-		 * This logic obviously should be here. Refactor out later.
+		 * This logic obviously shouldn't be here. Refactor out later.
 		 */
 		AsyncHttpClient client = new AsyncHttpClient();
 		client.get("http://10.0.2.2:5000/api/article/",
